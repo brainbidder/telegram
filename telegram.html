@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brainbidder Trading Signals</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f4f6fb;
+}
+
+.header {
+    background: #1e88e5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 420px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px auto -40px;
+    background: url('logo.png') center/cover;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.subheadline {
+    font-size: 14px;
+    color: #666;
+}
+
+.subscribers {
+    color: #888;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #1e88e5;
+    font-weight: 700;
+}
+
+.badge {
+    background: #e3f2fd;
+    color: #1e88e5;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.countdown {
+    color: red;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.btn {
+    display: block;
+    background: #1e88e5;
+    color: #fff;
+    padding: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background: #1565c0;
+}
+
+.features {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.footer {
+    font-size: 11px;
+    color: #777;
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 1.4;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+Don't have <strong>Telegram</strong>? Install & join now!
+</div>
+
+<div class="container">
+
+<div class="logo"></div>
+
+<div class="content">
+
+<h1>🔥 Free Accurate Intraday Signals<br> (Entry, SL & Target)</h1>
+
+<p class="subheadline" class="badge">
+<strong>85,564</strong> Subscribers
+</p>
+
+<p class="badge">Nifty — Banknifty — Stocks </p><br>
+
+<p class="subscribers">Trusted by 10,660+ Active Traders</p>
+<a href="https://t.me/brainbidderfree" class="btn" target="_blank">
+🚀 Join Free Telegram Channel
+</a>
+
+<p class="countdown">
+Link expires in <span id="timer">15</span> sec
+</p>
+
+<div class="features">
+✔ Live Entry & Exit Alerts | ✔ Stop Loss & Target Updates <br>
+✔ Daily Profit Reports | ✔ Low Risk Equity Trades
+</div>
+
+</div>
+
+<div class="footer">
+Disclaimer: Investments in stock market are subject to market risks. 
+Please trade responsibly.
+</div>
+
+</div>
+
+<script>
+let time = 15;
+let timer = document.getElementById('timer');
+
+setInterval(() => {
+    if(time > 0){
+        time--;
+        timer.innerText = time;
+    }
+},1000);
+</script>
+
+</body>
+</html>
