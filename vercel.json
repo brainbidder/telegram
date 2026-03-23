@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/pay",
+      "destination": "https://cosmofeed.com/vig/6794a25a144fdc0013880f62",
+      "permanent": true
+    }
+  ]
 }
